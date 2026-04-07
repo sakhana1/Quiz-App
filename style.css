@@ -1,0 +1,97 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    background: #fdfcfb;
+    color: #222;
+    text-align: center;
+}
+
+/* HEADER */
+header {
+    background: #ff5252;
+    color: white;
+    padding: 15px;
+}
+
+/* HERO */
+.hero {
+    padding: 50px 20px;
+}
+
+.subtitle {
+    color: #555;
+}
+
+input {
+    padding: 10px;
+    margin-top: 10px;
+    width: 200px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+button {
+    margin-top: 15px;
+    padding: 10px 20px;
+    background: #ff5252;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #ff6b6b;
+}
+
+/* CATEGORY */
+.category {
+    display: none;
+    padding: 30px;
+}
+
+.category button {
+    margin: 10px;
+    background: #3a86ff;
+}
+
+/* QUIZ */
+.quiz {
+    display: none;
+    padding: 30px;
+}
+
+#options button {
+    display: block;
+    margin: 10px auto;
+    width: 60%;
+    background: #eee;
+    color: black;
+}
+
+#options button:hover {
+    background: #ff6b6b;
+    color: white;
+}
+
+/* FEEDBACK */
+#feedback {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+/* SCORE */
+.score {
+    display: none;
+    padding: 40px;
+}
+
+/* FOOTER */
+footer {
+    background: #ff5252;
+    color: white;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
